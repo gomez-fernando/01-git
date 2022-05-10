@@ -1,5 +1,9 @@
 export class Calculo {
-    add(a,b) {return a+b}
+    add(a, b) {
+        return a + b;
+    }
 
-    //nuevo contenido
+    prod(a, b) {
+        return a * b;
+    }
 }
