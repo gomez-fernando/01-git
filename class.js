@@ -6,7 +6,8 @@ export class Calculo {
     substract(a = 0, b = 0) {
         return a - b;
     }
-    prod(a = 10, b = 20) {
+
+    prod(a, b) {
         return a * b;
     }
 }
